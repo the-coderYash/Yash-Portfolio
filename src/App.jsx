@@ -1,10 +1,10 @@
-import './App.css'
-import Hero from './assets/sections/Hero/Hero';
+import './App.css';
+import Hero from './sections/Hero/Hero';
 
 function App() {
   return (
     <> 
-    <Hero />
+      <Hero />
     </>
   );
 }
