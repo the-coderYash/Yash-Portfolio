@@ -1,5 +1,7 @@
+import styles from './HeroStyles.module.css'
+
 function Hero() {
-          return <div>Hero</div>;
+          return <section id="hero">Some other Text</section>;
 }
 
 export default Hero;
