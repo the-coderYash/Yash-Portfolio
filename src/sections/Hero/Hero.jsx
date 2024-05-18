@@ -1,6 +1,9 @@
-import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img.png";
-import themeIcon from "../../assets/sun.svg";
+import styles from './HeroStyles.module.css';
+import heroImg from '../../assets/hero-img.png';
+import themeIcon from '../../assets/sun.svg';
+import twitterIcon from '../../assets/twitter-light.svg';
+import githubIcon from '../../assets/github-light.svg';
+import linkedinIcon from '../../assets/linkedin-light.svg';
 
 function Hero() {
   return (
@@ -24,7 +27,20 @@ function Hero() {
           Raj
         </h1>
         <h2>Full Stack Developer</h2>
-        <span></span>
+        <span>
+          <a href='https://twitter.com' target='_blank'>
+            <img src={twitterIcon} alt='Twitter Icon' />
+          </a>
+          <a href='https://github.com/the-coderYash' target='_blank'>
+            <img src={githubIcon} alt='GitHub Icon' />
+          </a>
+          <a
+            href='https://linkedin.com/in/yash-raj-mishra-1976912a7'
+            target='_blank'
+          >
+            <img src={linkedinIcon} alt='Linkedin Icon' />
+          </a>
+        </span>
       </div>
     </section>
   );
