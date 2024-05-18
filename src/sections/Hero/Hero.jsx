@@ -4,7 +4,7 @@ import themeIcon from "../../assets/sun.svg";
 
 function Hero() {
   return (
-    <section id='hero'>
+    <section id='hero' className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
           className={styles.hero}
