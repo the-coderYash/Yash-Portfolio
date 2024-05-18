@@ -17,6 +17,15 @@ function Hero() {
           alt='Color mode icon'
         />
       </div>
+      <div className={styles.info}>
+        <h1>
+          Yash
+          <br />
+          Raj
+        </h1>
+        <h2>Full Stack Developer</h2>
+        <span></span>
+      </div>
     </section>
   );
 }
