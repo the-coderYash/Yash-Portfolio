@@ -1,5 +1,5 @@
+// eslint-disable-next-line no-unused-vars
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { children } from 'react';
 
 const ThemeContext = createContext();
 
@@ -11,6 +11,17 @@ export const ThemeProvider = ({ children }) => {
   );
 
   useEffect(() => {
-    document.body.setAttribute;
-  });
+    document.body.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+  };
+
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 };
