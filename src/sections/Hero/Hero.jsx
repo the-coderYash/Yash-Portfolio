@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/hero-img.png';
 import themeIcon from '../../assets/sun.svg';
@@ -8,7 +9,7 @@ import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, toggleTheme } = useTheme(); //
 
   return (
     <section id='hero' className={styles.container}>
