@@ -59,8 +59,8 @@ function Hero() {
         </span>
         <p>
           As an ambitious and driven student with a keen interest in coding and
-          technology.Currently pursuing my B.Tech at Gaya College Of
-          Engineering, GAYA.
+          technology.Currently pursuing B.Tech at Gaya College Of Engineering,
+          GAYA.
         </p>
         <a href={CV} download>
           <button className='hover'>Resume</button>
