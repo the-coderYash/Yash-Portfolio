@@ -1,6 +1,6 @@
 :root {
   --background-color: #fff;
-  --btn-color: #9871f2;
+  --btn-color: #9469d5;
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
   --text-color: #222;
@@ -33,7 +33,8 @@ body {
 
 h1,
 h2,
-h3 p {
+h3,
+p {
   color: var(--text-color);
   margin: 0;
   padding: 0;
@@ -54,6 +55,7 @@ h2,
 h3 {
   font-size: 20px;
 }
+
 h1 {
   font-family: 'Rubik', sans-serif;
   font-size: 32px;
@@ -61,11 +63,13 @@ h1 {
 
 p {
   font-size: 16px;
-  font-weight: 300px;
+  font-weight: 300;
 }
+
 .sectionTitle {
   margin-bottom: 30px;
 }
+
 .hover {
   cursor: pointer;
 }
