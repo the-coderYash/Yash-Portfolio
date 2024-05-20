@@ -57,7 +57,7 @@ function Hero() {
             <img src={linkedinIcon} alt='Linkedin Icon' />
           </a>
         </span>
-        <p>
+        <p className={styles.description}>
           As an ambitious and driven student with a keen interest in coding and
           technology.Currently pursuing B.Tech at Gaya College Of Engineering,
           GAYA.
