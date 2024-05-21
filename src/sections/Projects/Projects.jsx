@@ -2,6 +2,9 @@
 import styles from './ProjectsStyles.module.css';
 import GCEWEB from '../../assets/gceweb.png';
 import clock from '../../assets/clock.png';
+import calculator from '../../assets/calculator.png';
+import loginPage from '../../assets/loginPage.png';
+import jokesWebsite from '../../assets/jokes.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -20,6 +23,24 @@ function Projects() {
           link='https://github.com/the-coderYash/Analog-Clock'
           h3='Analog Clock'
           p='A Beautiful Analog Clock'
+        />
+        <ProjectCard
+          src={calculator}
+          link=''
+          h3='Neumorphic Calculator '
+          p='Calculator with Neumorphism Design '
+        />
+        <ProjectCard
+          src={loginPage}
+          link=''
+          h3='Login Page'
+          p='Login Page with animation'
+        />
+        <ProjectCard
+          src={jokesWebsite}
+          link=''
+          h3='Online Jokes Generator'
+          p='Website which generate Jokes'
         />
       </div>
     </section>
