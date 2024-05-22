@@ -5,7 +5,7 @@ import clock from '../../assets/clock.png';
 import calculator from '../../assets/calculator.png';
 import loginPage from '../../assets/loginPage.png';
 import jokesWebsite from '../../assets/jokes.png';
-// import keyCodes from '../../assets/keyCodes.png';
+import keyCodes from '../../assets/keyCodes.png';
 import soundBoard from '../../assets/soundBoard.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -50,12 +50,12 @@ function Projects() {
           h3='Sound Board'
           p='Can play different Sound'
         />
-        {/* <ProjectCard
+        <ProjectCard
           src={keyCodes}
           link='https://github.com/the-coderYash/Project-11---Key-Codes'
           h3='Key Codes'
           p='Know your Key Codes'
-        /> */}
+        />
       </div>
     </section>
   );
